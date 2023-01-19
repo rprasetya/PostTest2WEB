@@ -1,0 +1,226 @@
+@font-face {
+    font-family: header_font;
+    src: url(../font/header_font.otf);
+}
+
+@font-face {
+    font-family: nav_font;
+    src: url(../font/nav_font.ttf);
+}
+
+@font-face {
+    font-family: footer_name_font;
+    src: url(../font/footer_name_font.ttf);
+}
+
+@font-face {
+    font-family: slogan_font;
+    src: url(../font/slogan_font.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    padding: 48px 0px 400px 65px;
+    background-image: url(../image/pexels-jin-wedding-5729151.jpg);
+    background-position: relative;
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    image-resolution: 100%;
+
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+    
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 80;
+    }
+} 
+
+#greet{
+    color: #000000f4;
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 15px;
+    text-align: left;
+    margin: 40px 0px 0px 0px;
+    font-style: italic;
+}
+
+#judul{
+    display: inline;
+    color: #161616f4;    
+    position: absolute;
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#judul_halaman {
+    margin-top: 370px;
+    margin-left: -60px;
+    color: #000000f4;    
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 40px;
+    text-align: center;
+}
+
+header nav a{
+    display: inline;
+    position: relative;
+    letter-spacing: 1.3px;
+    font-family: nav_font;
+    float: right;
+    padding-top: 4px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #161616f4;
+}
+
+footer {
+    background-color: #F3F5F5;
+    padding: 40px 0px 30px 95px;
+    color: #464646;
+}
+
+footer div a{
+    margin-left: 7px;
+    text-indent: 5px;
+}
+
+#nama {
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: footer_name_font;
+}
+
+#slogan {
+    width: 70%;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: slogan_font;
+    letter-spacing: 3px;
+}
+
+#telpon {
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    font-family: slogan_font;
+    letter-spacing: 3px;
+}
+
+#kontak {
+    font-size: 18px;
+    font-family: slogan_font;
+    letter-spacing: 4px;
+}
+
+#copyright {
+    color: #aaaaaa;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: footer_name_font;
+}
+
+/* HOME */
+#home_about {
+    background-image: url(../image/pexels-pixabay-434645.jpg) ;
+    background-size: 100%;
+    background-position: center center;
+
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+#home_about a{
+    text-decoration: none;
+    color: #161616f4;    
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 23px;
+    display: block;
+    padding: 250px 0px 250px 100px;
+
+}
+
+#home_about:hover, #home_about:focus, #home_about:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+#home_workshop {
+    background-image: url(../image/home_workshop.jpg) ;
+    background-size: 100%;
+    background-position: center center;
+
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+#home_workshop a{
+    padding: 250px 0px 250px 100px;
+    text-decoration: none;
+    color: #161616f4;    
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 23px;
+    display: block;
+}
+
+#home_workshop:hover, #home_workshop:focus, #home_workshop:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+#home_order {
+    background-image: url(../image/home_order.jpg) ;
+    background-size: 100%;
+    background-position: center center;
+
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+#home_order a{
+    padding: 250px 0px 250px 100px;
+    display: block;
+    text-decoration: none;
+    color: #161616f4;    
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 23px;
+}
+
+#home_order:hover, #home_order:focus, #home_order:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}

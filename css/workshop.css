@@ -1,0 +1,191 @@
+@font-face {
+    font-family: header_font;
+    src: url(../font/header_font.otf);
+}
+
+@font-face {
+    font-family: nav_font;
+    src: url(../font/nav_font.ttf);
+}
+
+@font-face {
+    font-family: footer_name_font;
+    src: url(../font/footer_name_font.ttf);
+}
+
+@font-face {
+    font-family: slogan_font;
+    src: url(../font/slogan_font.ttf);
+}
+
+@font-face {
+    font-family: figcaption_font;
+    src: url(../font/figcaption.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    padding: 48px 0px 400px 65px;
+    background-image: url(../image/workshop_header.jpg);
+    background-position: relative;
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    image-resolution: 100%;
+
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+    
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 80;
+    }
+}
+
+#greet{
+    color: #000000f4;
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 15px;
+    text-align: left;
+    margin: 40px 0px 0px 0px;
+    font-style: italic;
+}
+
+#judul{
+    display: inline;
+    color: #161616f4;    
+    position: absolute;
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#judul_halaman {
+    margin-top: 370px;
+    margin-left: -60px;
+    color: #000000f4;    
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 40px;
+    text-align: center;
+}
+
+header nav a{
+    display: inline;
+    position: relative;
+    letter-spacing: 1.3px;
+    font-family: nav_font;
+    float: right;
+    padding-top: 4px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #161616f4;
+}
+
+footer {
+    background-color: #F3F5F5;
+    padding: 40px 0px 0px 95px;
+    color: #464646;
+}
+
+footer div a {
+    justify-content: left;
+    justify-items: left;
+    margin: 0px;
+    text-align: left;
+    position: absolute;
+    top: 2410px;
+}
+
+#connect1{
+    left: 95px;
+}
+
+#nama {
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: footer_name_font;
+}
+
+#slogan {
+    width: 70%;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: slogan_font;
+    letter-spacing: 3px;
+}
+
+#telpon {
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    font-family: slogan_font;
+    letter-spacing: 3px;
+}
+
+#kontak {
+    font-size: 18px;
+    font-family: slogan_font;
+    letter-spacing: 4px;
+}
+
+#copyright {
+    color: #aaaaaa;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: footer_name_font;
+}
+
+/* WORKSHOP */
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px;
+}
+  
+figure {
+    width: 30%;
+    text-align: center;
+}
+  
+.workshop_content img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 35px;
+    color: rgb(20, 20, 20);
+    font-family: figcaption_font;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    line-height: 50px;
+}  
+
+figcaption #figcaption_date{
+    font-size: 26px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+figcaption #figcaption_desc{
+    font-size: 15px;
+    margin-top: 35px;
+    letter-spacing: 0px;
+    line-height: 25px;
+}

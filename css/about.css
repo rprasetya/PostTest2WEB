@@ -1,0 +1,181 @@
+@font-face {
+    font-family: header_font;
+    src: url(../font/header_font.otf);
+}
+
+@font-face {
+    font-family: nav_font;
+    src: url(../font/nav_font.ttf);
+}
+
+@font-face {
+    font-family: footer_name_font;
+    src: url(../font/footer_name_font.ttf);
+}
+
+@font-face {
+    font-family: slogan_font;
+    src: url(../font/slogan_font.ttf);
+
+}
+
+@font-face {
+    font-family: about_isi_font;
+    src: url(../font/about_isi_font.ttf);
+}
+
+@font-face {
+    font-family: about_isi_isi_font;
+    src: url(../font/about_isi_isi_font.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    padding: 48px 0px 400px 65px;
+    background-image: url(../image/about_header.jpg);
+    background-position: relative;
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    image-resolution: 100%;
+
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+    
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 80;
+    }
+}
+
+#greet{
+    color: #000000f4;
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 15px;
+    text-align: left;
+    margin: 40px 0px 0px 0px;
+    font-style: italic;
+}
+
+#judul{
+    display: inline;
+    color: #161616f4;    
+    position: absolute;
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#judul_halaman {
+    margin-top: 370px;
+    margin-left: -60px;
+    color: #000000f4;    
+    letter-spacing: 1.3px;
+    font-family: header_font;
+    font-size: 40px;
+    text-align: center;
+}
+
+header nav a{
+    display: inline;
+    position: relative;
+    letter-spacing: 1.3px;
+    font-family: nav_font;
+    float: right;
+    padding-top: 4px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #161616f4;
+}
+
+footer {
+    background-color: #F3F5F5;
+    padding: 40px 0px 30px 95px;
+    color: #464646;
+}
+
+footer div a{
+    margin-left: 7px;
+    text-indent: 5px;
+}
+
+#nama {
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: footer_name_font;
+}
+
+#slogan {
+    width: 70%;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: slogan_font;
+    letter-spacing: 3px;
+}
+
+#telpon {
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    font-family: slogan_font;
+    letter-spacing: 3px;
+}
+
+#kontak {
+    font-size: 18px;
+    font-family: slogan_font;
+    letter-spacing: 4px;
+}
+
+#copyright {
+    color: #aaaaaa;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: footer_name_font;
+}
+
+/* ABOUT */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about_text {
+    letter-spacing: -2px;
+    font-family: about_isi_font;
+    font-size: 50px;
+    color: #494949;
+    text-align: justify;
+    padding-right: 90px;
+}
+
+.about_text #about_isi_isi{
+    line-height: 1.8;
+    margin-top: 23px;
+    margin-left: 10px ;
+    letter-spacing: 0px;
+    text-align: justify;
+    font-family: about_isi_isi_font;
+    font-size: 12px;
+} 
+
+.container img {
+    height: 500px;
+    image-rendering: pixelated;
+}
+  
