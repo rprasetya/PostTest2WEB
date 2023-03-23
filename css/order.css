@@ -149,7 +149,7 @@ form {
     color: #000000;
   }
   
-  input[type=text], input[type=password], input[type=email] {
+  input[type=text], input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -162,18 +162,10 @@ form {
     margin-left: 10px;
   }
   
-  input[type=file] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid rgb(99, 99, 99);
-    border-radius: 4px;
-    background-color: #161616f4;
-    color: white;
-  }
-  
-  input[type=submit] {
+  .borang form a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     width: 100%;
     background-color: #161616f4;
     color: white;
@@ -184,7 +176,7 @@ form {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  .borang form a:hover {
     background-color: #2e2e2ef4;
   }
   
